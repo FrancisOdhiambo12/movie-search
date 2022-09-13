@@ -8,12 +8,12 @@ export default function MovieSearch(){
   const movieSearch = async (e) => {
     e.preventDefault();
 
-    const url = `https://api.themoviedb.org/3/search/movie?api_key=00372f95c2c4618d9bca186666aa616e&language=en-US&query=${query}&page=1&include_adult=false`
+    const url = "http://localhost:9292/movies"
 
     try{
       const res = await fetch(url);
       const data = await res.json();
-      setMovies(data.results);
+      setMovies(data);
       console.log(data);
   } catch(err){
     console.error(err);
@@ -35,7 +35,7 @@ export default function MovieSearch(){
         {movies.filter(movie => movie.poster_path).map(movie => (
           <div className="movie-card" key={movie.id}>
             <img className="card--image"
-             src={`https://image.tmdb.org/t/p/w185_and_h278_bestv2/${movie.poster_path}`}
+             src={`http://localhost:9292/movies/${movie.poster_path}`}
              alt={movie.title + ' poster'}/>
          <div className="card--content">
             <h3 className="movie--title">{movie.title}</h3>
@@ -52,4 +52,4 @@ export default function MovieSearch(){
   )
 }
 
-// done
+
