@@ -6,7 +6,7 @@ Movies.create(title: "Rescued by Ruby", vote_average: 4, overview: "Chasing his 
 
 Movies.create(title: "Abraham Lincoln: Vampire Hunter", vote_average: 3, overview: "President Lincoln's mother is killed by a supernatural creature, which fuels his passion to crush vampires and their slave-owning helpers.", release_date: "2021", poster_path: "https://m.media-amazon.com/images/M/MV5BNjY2Mzc0MDA4NV5BMl5BanBnXkFtZTcwOTg5OTcxNw@@._V1_.jpg")
 
-Movies.create(title: "Step Up", vote_average: 5, overview: "Everyone deserves a chance to follow their dreams, but some people only get one shot. Tyler Gage is a rebel from the wrong side of Baltimore's tracks and the only thing that stands between him and an unfulfilled life are his dreams of one day making it out of there. Nora is a privileged ballet dancer attending Baltimore's ultra-elite Maryland School of the Arts", release_date: "2015", poster_path: "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Step_up.jpg/220px-Step_up.jpg")
+Movies.create(title: "Step Up", vote_average: 5, overview: "Everyone deserves a chance to follow their dreams, but some people only get one shot. Tyler Gage is a rebel from the wrong side of Baltimore's tracks and the only thing that stands between him and an unfulfilled life are his dreams of one day making it out of there. Nora is a privileged ballet dancer attending Baltimore's ultra-elite Maryland School of the Arts", release_date: "2015", poster_path: "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Step_up.jpg/220px-Step_up.jpgp")
 
 
 puts "🌱 Done seeding!"
